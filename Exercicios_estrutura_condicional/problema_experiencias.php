@@ -32,9 +32,9 @@ for ($i = 0; $i < $teste; $i++) {
     echo "Total de coelhos: $coelho";
     echo"Total de ratos: $rato" ;
     echo"Total de sapos: $sapo";
-    echo"Percentual de coelhos: " . ($coelho / $total) . "\n";
-    echo"Percentual de ratos: " . ($rato / $total) . "\n";
-    echo"Percentual de sapos: " . ($sapo / $total) . "\n";
+    echo"Percentual de coelhos: " . number_format(($coelho / $total) * 100, 2) . "\n";
+    echo"Percentual de ratos: " . number_format(($rato / $total) * 100, 2) . "\n";
+    echo"Percentual de sapos: " . number_format(($sapo / $total) * 100, 2) . "\n";
 
 
 
